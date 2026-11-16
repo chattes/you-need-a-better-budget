@@ -1,0 +1,13 @@
+.git
+.github
+.vercel
+node_modules
+dist
+coverage
+.env
+.env.*
+*.cany
+docs
+Dockerfile
+docker-compose.yml
+.dockerignore
