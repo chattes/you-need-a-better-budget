@@ -80,4 +80,10 @@
     height: 10px;
     border-radius: 2px;
   }
+  @media (max-width: 600px) {
+    .legend {
+      /* Clears the fixed FAB so the last amount stays readable. */
+      padding-bottom: calc(var(--bottom-bar) + 5rem);
+    }
+  }
 </style>
