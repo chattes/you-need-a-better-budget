@@ -83,7 +83,7 @@
       (see <a href="docs/self-hosting.md">docs/self-hosting.md</a>); or paste the ID in the field here.
     </p>
   {:else if authStore.clientIdSource === 'build'}
-    <p class="muted">Set at build time (VITE_GOOGLE_CLIENT_ID). Change it there.</p>
+    <p class="muted">Set at build time (VITE_GOOGLE_CLIENT_ID). Change it there. At Docker runtime the container reads <code>GOOGLE_CLIENT_ID</code>.</p>
   {:else}
     <p class="muted">
       Needed only for Google Sheets sync. The value is saved in this browser only.
